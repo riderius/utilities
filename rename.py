@@ -1,3 +1,5 @@
+""" Re-Name.py is a utility to quickly rename photos and videos in name_i.format style. """
+
 import os
 import shutil
 import glob2
