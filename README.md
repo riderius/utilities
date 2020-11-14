@@ -1,6 +1,6 @@
 # My-Utilities
 
-Hi! **Utilities** is a collection of my utilities in Python 3.
+Hi! **My-Utilities** is a collection of my utilities in Python 3.
 
 ## Modules Used
 
