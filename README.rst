@@ -1,8 +1,8 @@
+==============
+Utilities-Pack
+==============
 
-My-Utilities
-============
-
-Hi! **My-Utilities** is a collection of my utilities in Python 3.
+Hi! **Utilities-Pack** is a collection of my utilities in Python 3.
 
 Modules Used
 ------------
@@ -21,7 +21,6 @@ Python 3.8 or higher is recommended for using this programs. You need to install
 
 Utilities
 ---------
-
 
 - rename.py
 - text2binary.py
