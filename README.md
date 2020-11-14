@@ -2,7 +2,7 @@
 
 Hi! **Utilities** is a collection of my utilities in Python 3.
 
-## Modules Used:
+## Modules Used
 
 1. glob2
 
@@ -23,4 +23,4 @@ Python 3.8 or higher is recommended for using this programs. You need to install
 
 ### Text2Binary.py
 
-**Text2Binary.py** is a Module for translate temp_text to binary code and for translate binary code to temp_text.Functions are taken from [here](http://bit.do/functions_from_text2binary.)
+**Text2Binary.py** is a Module for translate text to binary code and for translate binary code to text. Functions are taken from [here](http://bit.do/functions_from_text2binary.)
