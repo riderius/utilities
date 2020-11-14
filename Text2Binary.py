@@ -1,19 +1,30 @@
-# Фунции взяты от сюда: http://bit.ly/functions_from_text2binary
+""" Module for translate temp_text to binary code and
+    for translate binary code to temp_text.
+        Functions are taken from here:
+            http://bit.do/functions_from_text2binary """
 
-def text_to_bits(text, encoding='utf-8', errors='surrogatepass'):
-    bits = bin(int.from_bytes(text.encode(encoding, errors), 'big'))[2:]
-    print(bits.zfill(8 * ((len(bits) + 7) // 8)))
 
-def text_from_bits(bits, encoding='utf-8', errors='surrogatepass'):
-    n = int(bits, 2)
-    print(n.to_bytes((n.bit_length() + 7) // 8, 'big').decode(encoding, errors) or '\0')
+def text_to_bits(text: str) -> str:
+    """ Function for translate temp_text to binary code. """
 
-function = int(input('1)Текст в Двоичный код\n2)Двоичный код в текст\n'))
+    text = bin(int.from_bytes(text.encode('utf-8'), 'big'))[2:]
+    print(text.zfill(8 * ((len(text) + 7) // 8)))
+
+
+def text_from_bits(text: str) -> str:
+    """ Function for translate binary code to temp_text. """
+
+    text = int(text, 2)
+    print(text.to_bytes((text.bit_length() + 7) //
+                        8, 'big').decode('utf-8') or '\0')
+
+
+function = int(input('1)Text to Binary Code \n2)Binary Code to Text \n'))
 if function == 1:
-    bits = input('Вводите текст:\n')
-    text_to_bits(bits)
+    input_text = input('Enter text:\n')
+    text_to_bits(input_text)
 elif function == 2:
-    bits = input('Вводите текст:\n')
-    text_from_bits(bits)
+    input_text = input('Enter text:\n')
+    text_from_bits(input_text)
 else:
-    print('Данной функции НЕТ')
+    print('This function is NOT')
