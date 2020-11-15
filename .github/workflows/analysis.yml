@@ -24,9 +24,6 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint `ls -R|grep .py$|xargs`
-    - name: Analysing the code with flake8
-      run: |
-          flake8 `ls -R|grep .py$|xargs`
     - name: radon statistics
       run: |
         radon raw ./
