@@ -1,4 +1,3 @@
-==============
 Utilities-Pack
 ==============
 
@@ -33,4 +32,4 @@ rename.py
 text2binary.py
 ^^^^^^^^^^^^^^
 
-**text2binary.py** is a Module for translate text to binary code and for translate binary code to text. Functions are taken from `here <http://bit.do/functions_from_text2binary.>`_.
+**text2binary.py** is a module for translate text to binary code and for translate binary code to text. Functions are taken from `here <http://bit.do/functions_from_text2binary.>`_.
