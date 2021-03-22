@@ -1,6 +1,6 @@
-# My-Utilities
+# Utilities
 
-Hi! **My-Utilities** is a collection of my utilities in Python 3.
+Hi! **Utilities** is a collection of my utilities in Python 3.
 
 ## Modules Used
 
@@ -12,7 +12,7 @@ Python 3.8 or higher is recommended for using this programs. You need to install
 
 **glob2** is a Python module that sorts files by format.
 
-## Utilities
+## List of utilities
 
 1. rename.py
 2. text2binary.py
