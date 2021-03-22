@@ -1,4 +1,4 @@
-# Utilities
+# utilities
 
 Hi! **Utilities** is a collection of my utilities in Python 3.
 
